@@ -18,7 +18,7 @@ Current state: <e.g. "design documents only. No code, no prototype yet.">
 ## Document rules
 
 - File names `NN-topic.md`. Every document starts with `Version: v0.x. Day: N. Status: …`. Bump the version on every change and log what changed in a review record at the end.
-- **Mark the source.** What the user explicitly approved is **DECIDED**. What the assistant suggests is **PROPOSED**. Never write a proposal as if the user approved it.
+- **Mark the source.** What the user explicitly approved is **DECIDED**. What the assistant suggests is **PROPOSED**. Never write a proposal as if the user approved it. A hook (`tools/doc_guard.py`) blocks edits that add, change or remove DECIDED lines; when it blocks you, keep the idea as PROPOSED and ask.
 - **Keep design and implementation apart.** Until there's a prototype and running evidence, don't write "verified". Numbers without evidence are examples, and say so.
 - **Ask with a default.** When a decision is needed, ask it as a question with a default answer the user can accept or reject. End every document with a short list of "choices I made for you".
 - **Scope check.** <Your hard limit, e.g. "Solo developer: ask of every design: can one person build this?">

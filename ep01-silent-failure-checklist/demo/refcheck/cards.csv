@@ -1,0 +1,11 @@
+id,name,kind
+docker,Dock Worker,Person
+fixer,The Fixer,Person
+reporter,Night Reporter,Person
+pier-9,Pier 9,Place
+night-market,Night Market,Place
+pawn-shop,Pawn Shop,Store
+noodle-stall,Noodle Stall,Store
+crowbar,Crowbar,Item
+ledger,Old Ledger,Itme
+mayor-secret,The Mayor's Debt,Secret

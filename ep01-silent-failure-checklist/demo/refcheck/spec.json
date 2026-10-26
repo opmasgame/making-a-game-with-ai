@@ -1,0 +1,27 @@
+{
+  "tables": {
+    "cards":   "cards.csv",
+    "recipes": "recipes.csv",
+    "rules":   "rules.json",
+    "vars":    {"file": "vars.json", "key": "vars"},
+    "npcs":    "npcs.csv",
+    "spawns":  "spawns.csv"
+  },
+  "enums": {
+    "CardKind": {"file": "CardKind.cs", "after": "enum CardKind", "until": "}"}
+  },
+  "checks": [
+    {"rows": "cards", "min": 10,
+     "why": "A lower bound catches a table that didn't load, without freezing an exact count."},
+    {"column": "cards.id", "unique": true},
+    {"column": "cards.kind", "in": "CardKind",
+     "why": "Every enum value the data uses must be one the code knows."},
+    {"column": "recipes.main_card", "in": "cards.kind",
+     "why": "A recipe whose main card no card can match is never possible. Nothing crashes."},
+    {"column": "recipes.rewards", "split": ";", "in": "cards.id"},
+    {"column": "rules.when", "extract": "\\$(\\w+)", "in": "vars.name",
+     "why": "Every variable a rule mentions must resolve, or the rule is silently always false."},
+    {"column": "spawns.npc", "covers": "npcs.id",
+     "why": "Every NPC the design lists must actually spawn somewhere in the world."}
+  ]
+}

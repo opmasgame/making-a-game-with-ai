@@ -1,0 +1,6 @@
+[
+  {"id": "night-only",   "when": "$hour >= 20 || $hour < 4"},
+  {"id": "cool-down",    "when": "$heat < 3"},
+  {"id": "rich-enough",  "when": "$gold >= 50"},
+  {"id": "not-watched",  "when": "$suspicion < 2 && $heat < 5"}
+]

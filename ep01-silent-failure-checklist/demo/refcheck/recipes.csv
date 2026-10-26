@@ -1,0 +1,6 @@
+id,name,main_card,rewards
+odd-jobs,Odd Jobs,Person,
+fence-goods,Fence Stolen Goods,Store,crowbar
+run-shop,Run a Shop,Shop,ledger
+blackmail,Blackmail the Mayor,Secret,mayor-secret;gold-watch
+dock-heist,Heist at the Docks,Place,crowbar;ledger
