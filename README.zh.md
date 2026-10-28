@@ -37,10 +37,10 @@ python action_coverage.py --actions demo/coverage/actions.csv demo/coverage/even
 | 2 | 我只问了 AI 一句：这是你自己想的吗？ | [`ep02-agent-rules-templates/`](ep02-agent-rules-templates/README.zh.md) |
 | 3 | 我请了 30 个 AI 玩家，首富周一就不玩了 | — |
 | 4 | 我游戏里的每张图都是 AI 画的，有个人长了三只手 | — |
-| 5 | 真人一局都没打完，我的 AI 已经打了将近两千局 | — |
+| 5 | AI 打了将近两千局，没有一局发现：打完了出不去 | — |
 | 6 | AI 测试全绿，我自己玩了一局：太复杂了 | — |
 | 7 | 我问 AI：你是不是不能做这个工作？ | — |
-| 8 | 八天，AI 用掉五千美元的 token，98% 是在重读 | — |
+| 8 | 八天，AI 用掉的 token 按 API 标价折算约五千美元，98% 是在重读 | — |
 | 9 | 和 AI 做游戏：给一千人设计的城，最后砍到九个人 | — |
 | 10 | AI 凭感觉做了四版预告片样片，全被我否了 | — |
 

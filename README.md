@@ -37,10 +37,10 @@ Both demos find the bugs planted in a small made-up game. To use a tool in your 
 | 2 | I Asked My AI One Question: "Is This Your Own Idea?" | [`ep02-agent-rules-templates/`](ep02-agent-rules-templates/) |
 | 3 | I Hired 30 AI Players. The Richest One Quit on Monday. | — |
 | 4 | AI Drew Every Picture in My Game. One Man Had Three Arms. | — |
-| 5 | My AI Finished Nearly 2,000 Games Before a Human Finished One | — |
+| 5 | My AI Played Nearly 2,000 Games. None of Them Noticed There Was No Way Out. | — |
 | 6 | Every Test Passed. Then a Human Played the Game My AI Built. | — |
 | 7 | "Are You Just Not Able to Do This Job?" I Asked My AI | — |
-| 8 | My AI Tools Used $5,000 of Tokens in 8 Days. 98% Was Rereading. | — |
+| 8 | My AI Used $5,000 of Tokens at API Prices in 8 Days. 98% Was Rereading. | — |
 | 9 | I Designed a Game for 1,000 Players With AI. Then I Cut It to 9. | — |
 | 10 | The Trailer My AI Couldn't Fake | — |
 
